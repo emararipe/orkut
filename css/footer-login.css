@@ -1,0 +1,13 @@
+.general-footer {
+    background-color: var(--white);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.general-footer p {
+    display: block;
+    text-align: center;
+    max-width: var(--content-range);
+    margin: 1rem;
+}

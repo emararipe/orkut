@@ -4,45 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main-login.css">
+    <link rel="stylesheet" href="css/footer-login.css">
     <title>Orkut | Login</title>
 </head>
 <body>
-    <header>
-        <img src="img/logo-orkut.svg" alt="Orkut">
-        <nav>
-            <ul>
-                <li><a href="#">Sobre o Orkut</a></li>
-                <li><a href="#">Centro de Segurança</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="page-container">
+        <header class="general-header">
+            <div class="header-content">
+                <img src="img/logo-orkut.svg" alt="Orkut">
+                <nav>
+                    <ul class="navigation-list">
+                        <li><a href="#">Sobre o Orkut</a></li>
+                        <li><a href="#">Centro de Segurança</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-    <main>
-        <section>
-            <img src="img/o-logo-orkut.svg" alt="Logo Orkut"/>
-            <h1>Acesse o Orkut</h1>
+        <div class="main-content">
+            <main class="general-main">
+                <section class="login-card">
+                    <img src="img/o-logo-orkut.svg" alt="Logo Orkut"/>
+                    <h1>Acesse o Orkut</h1>
 
-            <form>
-                <input type="email" id=email_usuario placeholder="E-mail">
-                <input type="password" id=senha_usuario placeholder="Senha">
+                    <form>
+                        <input type="email" id=email_usuario placeholder="E-mail">
+                        <input type="password" id=senha_usuario placeholder="Senha">
 
-                <label class="checkbox"><input type="checkbox"> Lembrar minha senha</label>
+                        <label class="checkbox"><input type="checkbox"> Lembrar minha senha</label>
 
-                <input type="submit" value="Entrar na conta">
-            </form>
-            <a href="#">Criar uma conta</a>
-            
-            <a href="#">Esqueci a minha senha</a>
-        </section>
+                        <input type="submit" value="Entrar na conta">
+                    </form>
+                    <a href="#">Criar uma conta</a>
+                    
+                    <a href="#">Esqueci a minha senha</a>
+                </section>
 
-        <section>
-            <img src="img/bg.png" alt="Pessoas conversando a mesa com notebooks"/>
-            <p>Conecta-se aos seus amigos e familiares usando recados e mensagens instantâneas</p>
-        </section>
-    </main>
+                <section class="call-out">
+                    <img class="image-call" src="img/bg.png" alt="Pessoas conversando a mesa com notebooks">
+                    <p>Conecta-se aos seus amigos e familiares usando recados e mensagens instantâneas</p>
+                </section>
+            </main>
+        </div>
 
-    <footer>
-        <p>Todos os direitos reservados</p>
-    </footer>
+        <footer class="general-footer">
+            <p>Todos os direitos reservados</p>
+        </footer>
+    </div>
 </body>
 </html>

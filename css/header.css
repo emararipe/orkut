@@ -1,0 +1,29 @@
+.general-header {
+    background: var(--white);
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    padding-left:1.75rem;
+    padding-right: 1.75rem;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: var(--content-range);
+    margin: auto; 
+}
+
+.navigation-list {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.navigation-list a {
+    text-decoration: none;
+}
+
+.navigation-list li {
+    list-style: none;
+}
